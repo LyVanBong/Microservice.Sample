@@ -39,3 +39,16 @@ You might also be interested in...
 - Nhà phát triển cần giải quyết vấn đề, chẳng hạn như độ trễ mạng và cân bằng tải.
 - Thử nghiệm phức tạp trên môi trường phân tán.
 
+## Sự khác biệt giữa Kiến trúc Microservices (MSA) và Kiến trúc Hướng dịch vụ (SOA)
+
+| Kiến trúc dựa trên dịch vụ vi mô (MSA) | Kiến trúc hướng dịch vụ (SOA) |
+| ----------- | ----------- |
+| Microservices sử dụng các giao thức nhẹ như REST và HTTP , v.v. | SOA hỗ trợ các giao thức đa tin nhắn |
+| Nó tập trung vào việc phân tách . | 	Nó tập trung vào khả năng tái sử dụng dịch vụ ứng dụng . |
+| Nó sử dụng một hệ thống nhắn tin đơn giản để liên lạc. | Nó sử dụng Bus dịch vụ doanh nghiệp (ESB) để giao tiếp. |
+| Microservices tuân theo cách tiếp cận kiến ​​trúc ” chia sẻ càng ít càng tốt “. | SOA tuân theo cách tiếp cận ” chia sẻ kiến ​​trúc càng nhiều càng tốt “. |
+| Microservices có khả năng chịu lỗi tốt hơn nhiều so với SOA. | SOA không tốt hơn về khả năng chịu lỗi so với MSA. |
+| Mỗi microservice có một cơ sở dữ liệu độc lập . | Dịch vụ SOA chia sẻ toàn bộ dữ liệu lưu trữ. |
+| MSA đã sử dụng cơ sở dữ liệu quan hệ hiện đại . | SOA đã sử dụng cơ sở dữ liệu quan hệ truyền thống . |
+| MSA cố gắng giảm thiểu việc chia sẻ thông qua ngữ cảnh bị ràng buộc (sự kết hợp của các thành phần và dữ liệu của nó như một đơn vị duy nhất với sự phụ thuộc tối thiểu). | SOA tăng cường chia sẻ thành phần. |
+| Nó phù hợp hơn với hệ thống dựa trên web nhỏ hơn và được chia nhỏ hơn . | Nó tốt hơn cho một môi trường ứng dụng kinh doanh lớn và phức tạp . |
