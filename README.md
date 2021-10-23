@@ -13,3 +13,5 @@ You might also be interested in...
 [Microservices architecture](https://dotnet.microsoft.com/learn/aspnet/microservices-architecture)
 
 [.NET Docker docs](https://docs.microsoft.com/en-us/dotnet/core/docker/introduction?WT.mc_id=dotnet-35129-website)
+
+[.NET Microservices Sample Reference Application](https://github.com/dotnet-architecture/eShopOnContainers)
